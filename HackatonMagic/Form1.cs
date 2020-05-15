@@ -7,13 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BLL;
 
 
 namespace HackatonMagic
 {
     public partial class Form1 : Form
     {
-
+        RollDice rollDice = new RollDice();
         int pvJ1 = 20;
         int pvJ2 = 20;
         int minute = 0;
@@ -91,6 +92,7 @@ namespace HackatonMagic
         private void btnRoll6_Click(object sender, EventArgs e)
         {
 
+            lblDice6Value.Text = rollDice.Roll(6).ToString();
         }
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BLL
 {
-    class RollDice
+   public class RollDice
     {
         public int Roll(int Dice)
         {
