@@ -1,0 +1,2 @@
+# HackatonMagicCore
+Hackaton Magic .netCore
